@@ -41,9 +41,9 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 
 // Always return the main index.html
 
-app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, './client/build/index.html'));
-});
+// app.get('*', (req, res) => {
+//   res.sendFile(path.resolve(__dirname, './client/build/index.html'));
+// });
 
 
 
@@ -72,11 +72,11 @@ app.listen(PORT, () => {
 });
 
 // Home
-// app.get("/", (request, response) => {
-//     response.send({
-//       msg: "Portfolio-cms API",
-//     });
-// });
+app.get("/", (request, response) => {
+    response.send({
+      msg: "Portfolio-cms API",
+    });
+});
 
 app.get("/api/", (request, response) => {
     response.send({
