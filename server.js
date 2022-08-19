@@ -8,6 +8,9 @@ const cookieParser = require('cookie-parser')
 require("dotenv").config();
 
 
+
+
+
 // Import Routes
 const authRoutes = require("./routes/authroute");
 const portfolioRoutes = require("./routes/portfolioroute");
@@ -31,6 +34,7 @@ app.use(
 );
 app.use(cookieParser());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+app.use(express.static(path.join(__dirname, "client/build")))
 
 
 
