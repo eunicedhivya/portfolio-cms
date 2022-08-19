@@ -26,6 +26,8 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
+      "https://www.eunicedhivya.com/",
+      "http://mytest-ed.us-east-1.elasticbeanstalk.com/",
       "http://localhost:3000",
       "http://localhost:5000",
     ],
@@ -63,11 +65,11 @@ app.listen(PORT, () => {
 });
 
 // Home
-app.get("/", (request, response) => {
-    response.send({
-      msg: "Portfolio-cms API",
-    });
-});
+// app.get("/", (request, response) => {
+//     response.send({
+//       msg: "Portfolio-cms API",
+//     });
+// });
 
 app.get("/api/", (request, response) => {
     response.send({
