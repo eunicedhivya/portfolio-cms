@@ -36,7 +36,14 @@ app.use(
 );
 app.use(cookieParser());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
-app.use(express.static(path.join(__dirname, "client/build")))
+
+app.use(express.static(path.join(__dirname, 'client/build')));
+
+// Always return the main index.html
+
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'index.html'));
+});
 
 
 
