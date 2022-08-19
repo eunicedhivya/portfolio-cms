@@ -1,0 +1,24 @@
+.categoriesList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    column-gap: 15px;
+    margin-bottom: 20px;
+}
+
+.categoriesList button{
+    background-color: var(--primary-color);;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.categoriesList button:hover{
+    background-color: var(--primary-color-dark);
+}

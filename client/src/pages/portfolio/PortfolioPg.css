@@ -1,0 +1,20 @@
+.portfolioGrid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 960px;
+    margin: 20px auto 50px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.portfolioMenu{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    /* max-width: 960px;
+    margin: 0 auto; */
+    text-align: center;
+    justify-content: center;
+    column-gap: 20px;
+}

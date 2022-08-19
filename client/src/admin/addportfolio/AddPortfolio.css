@@ -1,0 +1,52 @@
+.addPortfolioForm{
+    margin: 0 0 0 0;
+    padding: 30px 20px;
+    background-color: #fff;
+}
+.addPortfolioFormHeadline {
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+}
+.addPortfolioForm .submit{
+    background-color: var(--primary-color);
+    outline: none;
+    border: 1px solid var(--primary-color-dark);
+    padding: 5px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: #fff;
+}
+.addPortfolioForm .addpic{
+    font-size: 11px;
+    border-radius: 20px;
+    border: 1px solid var(--primary-color);
+    padding: 5px 20px;
+}
+.addPortfolioForm input, .addPortfolioForm textarea{
+    padding: 8px 15px 8px 0;
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    outline: none;
+}
+.addPortfolioForm textarea{
+    height: 100px;
+}
+.columns2, .columns2offset{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.columns2 .formGroup{
+    width: 50%;
+}
+
+.columns2offset .formGroup:first-child{
+    width: 80%;
+}

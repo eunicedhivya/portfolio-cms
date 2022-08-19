@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "title": "100 Crore Vaccines",
+    "publication": "News9live",
+    "description": "India has achieved this landmark a little less than eight months since the country’s vaccination programme was opened to adults above the age of 18. This interactive visualises the data of total adults vaccinated in India by states when the 100cr vaccine status was achieved. Click on the link to experience the interactive.",
+    "url": "100-crore-vaccines",
+    "category": "interactives",
+    "interactivelink": "https://www.news9live.com/tags/100cr-covid-vaccines",
+    "otherlink": "#"
+  },
+  {
+    "id": 2,
+    "title": "Decoding the James Webb Space Telescope",
+    "publication": "News9live",
+    "description": "The James Webb Space Telescope was originally known as the Next Generation Space Telescope and has been in development for over 30 years. The project has been delayed multiple times, especially since 2018. Here is an interactive graphic to a look at the development history to the successor, but not the replacement of Hubble. Click on the link below to go there.",
+    "url": "decoding-the-james-webb-space-telescope",
+    "category": "interactives",
+    "interactivelink": "https://www.news9live.com/jwtelescope",
+    "otherlink": "#"
+  },
+  {
+    "id": 3,
+    "title": "UP 2022: Graphic Details",
+    "publication": "News9live",
+    "description": "This is a collection of illustrated stories of people of varied backgrounds from Uttar Pradesh leading up to the elections. Each interactive tells a story about an individual's problems, aspirations and what this election hopes to change. Use the link below to view the interactive tailor-made for mobile.",
+    "url": "up-2022-graphic-detail",
+    "category": "interactives",
+    "interactivelink": "https://www.news9live.com/upcomiclist",
+    "otherlink": "#"
+  },
+  {
+    "id": 4,
+    "title": "The War in Ukraine",
+    "publication": "News9live",
+    "description": "The Ukraine-Russia conflict has a history of over 30 years, with its roots dating back to the 19th Century. The ongoing hostility, which began in February, has at its core Putinesque revanchism colliding with Ukrainian ideals of self-determination. This interactive feature offers an overview of the war, its actors and the suffering it has wrought. Open the link below to learn more.",
+    "url": "the-war-in-ukraine",
+    "category": "interactives",
+    "interactivelink": "https://www.news9live.com/ukraine-russia-war-live-tracker",
+    "otherlink": "#"
+  },
+  {
+    "id": 5,
+    "title": "Assembly Elections 2021 Results",
+    "publication": "The Federal",
+    "description": "The five-state elections that happened in 2021 was pivotal for the Indian political dynamics. This dashboard visualises the results as it happend real-time to give important insights to follow. Open the link to experience it.",
+    "url": "assembly-elections-2021-results",
+    "category": "interactives",
+    "interactivelink": "https://thefederal.com/interactive/assembly-elections-2021-results/",
+    "otherlink": "#"
+  },
+  {
+    "id": 6,
+    "title": "US Election 2020",
+    "publication": "The Federal",
+    "description": "This minimal interactive tracked the US presidential elections which showed the door for Trump, making him join the league of one-time presidents. Open the link below.",
+    "url": "us-election-2020",
+    "category": "interactives",
+    "interactivelink": "https://thefederal.com/interactive/us-election-2020/",
+    "otherlink": "#"
+  },
+  {
+    "id": 7,
+    "title": "Mars 2020: All you need to know about NASA’s mission to Red Planet",
+    "publication": "The Federal",
+    "description": "This is a WAN-IFRA South Asia gold award (2020) winning interactive for best data visualisation. This is the seocnd time we recieved an award for this category in a row. Perseverance is designed to search for astrobiological evidence of ancient microbial life on Mars and will land in Jezero Crater on February 18, 2021. Here is an interactive graphic to know more about the mission. Use the button below to navigate.",
+    "url": "mars-2020-mission",
+    "category": "interactives",
+    "interactivelink": "https://thefederal.com/interactive/perseverance-nasa-2020/",
+    "otherlink": "#"
+  },
+  {
+    "id": 8,
+    "title": "Interactive graphic: Chandrayaan 2, India’s ambitious mission to moon",
+    "publication": "The Federal",
+    "description": "This is a WAN-IFRA South Asia silver award (2019) winning interactive for best data visualisation. This visualises the second ambitious Indian moon mission consisting of an Orbiter, Lander, Rover. Visit this interactive where we have tried out 3js for the first time.",
+    "url": "chandrayaan-2-mission",
+    "category": "interactives",
+    "interactivelink": "https://thefederal.com/features/2019/07/13/interactive-graphic-chandrayaan-2-indias-ambitious-mission-to-moon/",
+    "otherlink": "#"
+  },
+  {
+    "id": 9,
+    "title": "Of honours and decorations:\nKnow your CDS and armed forces’ chiefs",
+    "publication": "The Federal",
+    "description": "For the first time since the inception of the post, the Chief of Defence Staff (CDS) will be present at the Republic day celebrations in New Delhi, where India’s military might will be on grand display. Click on the interactive graphic that describes the ranks and insignia of the CDS and the chiefs of Indian Armed forces in detail.",
+    "url": "know-your-cds-and-armed-forces-chiefs",
+    "category": "interactives",
+    "interactivelink": "https://thefederal.com/interactive/interactive-know-your-cds-and-armed-forces-chiefs-ranks-and-honoursof-honours-and-decorations-know-your-cds-and-armed-forces-chiefs/",
+    "otherlink": "#"
+  },
+  {
+    "id": 10,
+    "title": "Interactive: Coronavirus Live world dashboard",
+    "publication": "The Federal",
+    "description": "This is a live tracker of the Coronavirus numbers from around the world and in-depth numbers from India. Sourced from various official portals, this is a one-stop dashboard to be updated about the on-going crisis. Access the dashboard to learn more.",
+    "url": "coronavirus-live-dashboard",
+    "category": "interactives",
+    "interactivelink": "https://thefederal.com/health/interactive-know-the-coronavirus-stats-here/",
+    "otherlink": "#"
+  },
+  {
+    "id": 11,
+    "title": "Lok Sabha Election Results 2019",
+    "publication": "The Federal",
+    "description": "This is a live data visualisation of the Lok Sabha election results of 2019 which determines who the Prime MInister is. This exhaustive dashboard was updated real-time programatically as the results were announced. Check this out.",
+    "url": "lok-sabha-election-results-2019",
+    "category": "interactives",
+    "interactivelink": "https://thefederal.com/elections-2019/2019/05/23/election-result2019/",
+    "otherlink": "#"
+  },
+  {
+    "id": 12,
+    "title": "Poll dashboard 2014",
+    "publication": "The Federal",
+    "description": "This is the historical dashboard of the Lok Sabha election results from 2014. Use the link to visit the dashboard.",
+    "url": "poll-dashboard-2014",
+    "category": "interactives",
+    "interactivelink": "https://thefederal.com/interactives/election-map/",
+    "otherlink": "#"
+  },
+  {
+    "id": 13,
+    "title": "Bloody mutation how marriage practices have sparked a thalassemia endemic",
+    "publication": "The Federal",
+    "description": "Thalassemia, a congenital disorder, is directly related to gene abnormality. Requiring periodic blood transfusion or even surgery, it is a disorder that can be attributed to marriages within close communities or even families. Thalassemia is, therefore, a major challenge to the public health system. This interactive explains the disorder. Click on the link to read.",
+    "url": "thalassemia-endemic",
+    "category": "Interactives",
+    "interactivelink": "https://thefederal.com/insight/2019/04/22/bloody-mutation-how-marriage-practices-have-sparked-a-thalassemia-endemic/",
+    "otherlink": "#"
+  }
+]

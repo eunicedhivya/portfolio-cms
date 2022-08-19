@@ -1,0 +1,24 @@
+.page404{
+    text-align: center;
+    /* background-color: #fff; */
+    width: 100%;
+    margin: auto;
+    padding: 2rem;
+   
+}
+
+.page404 h2{
+    font-size: 8rem;
+    line-height: 8rem;
+    color: var(--primary-color);
+}
+.page404 .msg{
+    margin-left: 5px;
+}
+.verticalAlignCenter{
+    max-width: 320px;
+}
+
+.page404 a{
+    color: #333;
+}

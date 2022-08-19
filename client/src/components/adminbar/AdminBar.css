@@ -1,0 +1,33 @@
+.adminbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: #000;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.adminbar a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 14px;
+}
+
+.adminmenu {
+    display: flex;
+    column-gap: 20px;
+}
+.adminmenu .nav__link{
+    display: flex;
+    column-gap: 10px;
+    line-height: 14px;
+}
+
+.accountMenu img {
+    border-radius: 50%;
+}

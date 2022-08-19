@@ -1,0 +1,12 @@
+.portfolioDetail{
+    display: flex;
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    align-items: flex-start;
+    column-gap: 20px;
+    text-align: left;
+}
+.portfolioDetail img{
+    align-self: flex-start;
+}

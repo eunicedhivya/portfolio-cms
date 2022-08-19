@@ -1,0 +1,95 @@
+:root{
+  --subtle-pattern: url("./assets/img/topography.webp");
+
+  --primary-color: #2b6777;
+  --secondary-color: #52ab98;
+  --tertiary-color: #c8d8e4;
+
+  --primary-color-dark: #52ab98;
+  --primary-color-light: #c1f9ed;
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html { scroll-behavior: smooth; } 
+body { background-image: var(--subtle-pattern); margin-top: 50px;}
+button {
+  cursor: pointer;
+}
+
+.verticalAlignCenter{
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  width: 100%; max-width: 600px;
+}
+.box-shadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fff;
+}
+/* Common CSS */
+
+.pageTitle{
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn-lg{
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  padding: 10px 25px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.pageTitleFullWidth{
+  display: flex;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+.pageTitleFullWidth .pageTitle{
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 15px;
+  font-size: 24px;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.pageTitleFullWidth .pageTitle::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: calc( 100% - 160px );
+  height: 2px;
+  background-color: var(--primary-color);
+  margin-top: 6px;
+}
+
+.body-copy{
+  text-align: justify;
+}
+
+.pt100{ padding-top: 50px; }
+.pb100{ padding-bottom: 50px; }

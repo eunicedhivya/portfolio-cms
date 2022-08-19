@@ -1,0 +1,7 @@
+.mainNav{
+    background-color: #e8e8e8;
+}
+
+.mainNav .container{
+    display: flex;
+}
