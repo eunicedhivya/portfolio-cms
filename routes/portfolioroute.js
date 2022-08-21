@@ -28,14 +28,14 @@ router.get("/:id", async(req, res) => {
 // // Create a new portfolio item
 router.post("/", async(req, res) => {
   try {
-    const s3URL = "https://myportfoliopics.s3.amazonaws.com/portfolio/";
-    const convertToFilename = (req.body.title).toLowerCase().replace(/ /g, '-')
+    // const s3URL = "https://myportfoliopics.s3.amazonaws.com/portfolio/";
+    const convertToFilename = (req.body.title).toLowerCase().replace(/ /g, '-');
     // console.log((req.body.title).replace(/ /g, '-'));
     const newPortfolio =  new Portfolio({
         title: req.body.title,
         description: req.body.description,
         publication: req.body.publication,
-        category: [req.body.category],
+        category: req.body.category,
         img: convertToFilename,
         url: convertToFilename,
         demolink: req.body.demolink,
@@ -44,7 +44,7 @@ router.post("/", async(req, res) => {
     const portfolio = await newPortfolio.save();
     res.status(200).json(portfolio);
   } catch (error) {
-    res.status(500).json(error);
+    res.status(500).json(error.message);
   }
 })
 

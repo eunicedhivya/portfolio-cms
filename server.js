@@ -8,9 +8,6 @@ const cookieParser = require('cookie-parser')
 require("dotenv").config();
 
 
-
-
-
 // Import Routes
 const authRoutes = require("./routes/authroute");
 const portfolioRoutes = require("./routes/portfolioroute");
@@ -83,8 +80,6 @@ app.get("/api/", (request, response) => {
       msg: "API Home",
     });
 });
-
-
 
 app.use("/api/portfolio/", portfolioRoutes);
 app.use("/api/", authRoutes);
